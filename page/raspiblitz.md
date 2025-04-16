@@ -1,4 +1,4 @@
-How to disable datacarrier on Raspiblitz.
+How to disable datacarrier on [Raspiblitz](https://docs.raspiblitz.org).
 ===
 
 1. SSH to your your Raspiblitz device:
@@ -10,13 +10,13 @@ ssh admin@[YOURIP]
 ```
 
 2. Use the key combo `Ctrl + c` to escape the UI.
-3. Enter this command to disable datacarrier.
+3. Enter this command to disable datacarrier:
 
 ```bash
 sudo bash -c 'echo "datacarrier=0" >> /mnt/hdd/bitcoin/bitcoin.conf'
 ```
 
-4. restart bitcoind.
+4. Restart `bitcoind`:
 
 ```bash
 sudo systemctl restart bitcoind.service
