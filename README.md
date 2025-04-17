@@ -1,15 +1,12 @@
-How to disable datacarrier on Bitcoin Knots.
-=============
+Guide about Bitcoin Knots and DATUM
+===
 
-What is `datacarrier`?
----------------------
+Bitcoin Knots
+---
 
-`datacarrier` is an option that controls whether your node will relay (and mine, if you are a miner) transactions containing arbitrary data that is completely unrelated to Bitcoin payments.
+- [datacarrier](page/datacarrier.md)
 
-How to disable datacarrier on my platform?
-------
+DATUM
+---
 
- - [Umbrel](page/umbrel.md)
- - [Start9](page/start9.md)
- - [Mynode](page/mynode.md)
- - [Raspiblitz](page/raspiblitz.md)
+- [edit json config on umbrel](page/datum/umbrel-datum-json.md)
