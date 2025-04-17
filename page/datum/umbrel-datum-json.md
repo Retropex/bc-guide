@@ -82,6 +82,5 @@ For instance, here is options that DATUM support:
 }
 ```
 
-[!NOTE]
-
-If you break DATUM with a wrong config file you just have to uninstall and reinstall DATUM to fix it.
+> [!NOTE]
+> If you break DATUM with a wrong config file you just have to uninstall and reinstall DATUM to fix it.
