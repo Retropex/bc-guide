@@ -15,7 +15,7 @@ sudo nano umbrel/app-data/datum/data/settings/datum_gateway_config.json
 8. Done!
 
 
-For instance, here is options the DATUM support:
+For instance, here is options that DATUM support:
 
 ```
 {
