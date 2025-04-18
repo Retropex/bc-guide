@@ -23,7 +23,7 @@ Finaly open the "umbrelOS" terminal:
 
 <img src="migration/4-migration.png" width="50%" height="50%" />
 
-5. Type this command to erase the all Bitcoin Knots data:
+5. Type these two commands to move the Blockchain from Bitcoin Core to Knots:
 
 ```bash
 cd umbrel/app-data/
