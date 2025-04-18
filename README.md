@@ -5,6 +5,7 @@ Bitcoin Knots
 ---
 
 - [datacarrier](page/datacarrier.md)
+- [Migration Core -> Knots on umbrel](/page/migrationumbrel.md)
 
 DATUM
 ---
