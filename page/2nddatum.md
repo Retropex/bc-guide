@@ -10,7 +10,7 @@ How to setup a second datum instance on [Start9](https://start9.com).
 <img src="../pictures/1-datum2.png" width="50%" height="50%" />
 
 4. Upload the package downloaded previously and wait for the install to finish.
-5. Click on configure and enter your desiered configuration and you Bitcoin address:
+5. Click on configure and enter your desired configuration and you Bitcoin address:
 
 <img src="../pictures/2-datum2.png" width="50%" height="50%" />
 
