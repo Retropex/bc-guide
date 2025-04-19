@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the world of Bitcoin! If you're new to Bitcoin or are just getting started with running your own Bitcoin node, you're probably wondering what software to choose. Among the most popular options is **Bitcoin Core**, the official Bitcoin node implementation. But there's another powerful option that offers more features and better performance—**Bitcoin Knots**.
+Welcome to the world of Bitcoin! If you're new to Bitcoin or are just getting started with running your own Bitcoin node, you're probably wondering what software to choose. Among the most popular options is **Bitcoin Core**, the reference Bitcoin node implementation. But there's another powerful option that offers more features and better performance—**Bitcoin Knots**.
 
 Bitcoin Knots is a highly enhanced version of Bitcoin Core. It provides you with more control over how your node operates, allowing you to optimize its performance and help maintain the health of the Bitcoin network. In this guide, we will walk you through why Bitcoin Knots is the better choice for your Bitcoin node and how it outshines Bitcoin Core in several important areas.
 
