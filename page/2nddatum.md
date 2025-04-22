@@ -3,7 +3,7 @@ How to setup a second datum instance on [Start9](https://start9.com).
 
 **Follow this guide only if you have already a datum instance running!**
 
-1. Download the [special datum package](https://github.com/Retropex/datum-gateway-startos/releases/tag/v0.3.1-SI).
+1. Download the [special datum package](https://github.com/Retropex/datum-gateway-startos/releases/tag/v0.3.1-SI-1).
 2. Login to your start9 server.
 3. Go to system -> sideload a service:
 
