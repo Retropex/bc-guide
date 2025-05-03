@@ -7,6 +7,7 @@ Bitcoin Knots
 - [datacarrier](page/datacarrier.md)
 - [Migration Core -> Knots on umbrel](/page/migrationumbrel.md)
 - [APT repo for Debian 12](/page/apt.md)
+- [Knots + Sparrow on Windows/macOS](page/sparrowknots.md)
 
 DATUM
 ---
