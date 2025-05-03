@@ -13,3 +13,4 @@ How to disable datacarrier on my platform?
  - [Start9](datacarrier/start9.md)
  - [Mynode](datacarrier/mynode.md)
  - [Raspiblitz](datacarrier/raspiblitz.md)
+ - [Knots GUI](datacarrier/knotsgui.md)
