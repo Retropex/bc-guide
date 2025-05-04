@@ -3,14 +3,14 @@ How to setup a second datum instance on [Start9](https://start9.com).
 
 **Follow this guide only if you have already a datum instance running!**
 
-1. Download the [special datum package](https://github.com/Retropex/datum-gateway-startos/releases/tag/v0.3.1-SI).
+1. Download the [special datum package](https://github.com/Retropex/datum-gateway-startos/releases/tag/v0.3.1-SI-1).
 2. Login to your start9 server.
 3. Go to system -> sideload a service:
 
 <img src="../pictures/1-datum2.png" width="50%" height="50%" />
 
 4. Upload the package downloaded previously and wait for the install to finish.
-5. Click on configure and enter your desiered configuration and you Bitcoin address:
+5. Click on configure and enter your desired configuration and you Bitcoin address:
 
 <img src="../pictures/2-datum2.png" width="50%" height="50%" />
 

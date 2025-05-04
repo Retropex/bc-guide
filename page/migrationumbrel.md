@@ -23,14 +23,10 @@ Finaly open the "umbrelOS" terminal:
 
 <img src="migration/4-migration.png" width="50%" height="50%" />
 
-5. Type this command to erase the all Bitcoin Knots data:
+5. Paste this command and press enter to move the Blockchain data from Bitcoin Core to Knots:
 
 ```bash
-cd umbrel/app-data/
-```
-
-```bash
-sudo rm -rf bitcoin-knots/data/ && sudo mv bitcoin/data/ bitcoin-knots/
+cd umbrel/app-data/ && sudo rm -rf bitcoin-knots/data/ && sudo mv bitcoin/data/ bitcoin-knots/ && sudo rm -f bitcoin-knots/data/app/bitcoin-config.json
 ```
 
 6. you can now close the terminal and get back to the main view.
@@ -44,6 +40,7 @@ sudo rm -rf bitcoin-knots/data/ && sudo mv bitcoin/data/ bitcoin-knots/
 9. You can now uninstall Bitcoin Core.
 
 Done! You now have migrated to Bitcoin Knots.
+
 
 Here is a video demonstrating how to move to bitcoin Knots without typing any commands:
 
