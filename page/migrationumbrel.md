@@ -44,5 +44,5 @@ Done! You now have migrated to Bitcoin Knots.
 
 Here is a video demonstrating how to move to bitcoin Knots without typing any commands:
 
-<video src="page/migration/Migrate-Blockchain.mp4" style="max-width: 100%; height: auto;"></video>
+<video src="https://github.com/copy2018/bc-guide/edit/main/page/migration/Migrate-Blockchain.mp4" style="max-width: 100%; height: auto;"></video>
 <video src="page/migration/Migrate-Blockchain.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px"> </video>
