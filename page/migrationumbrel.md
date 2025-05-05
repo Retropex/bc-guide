@@ -43,5 +43,6 @@ Done! You now have migrated to Bitcoin Knots.
 
 
 Here is a video demonstrating how to move to bitcoin Knots without typing any commands:
+(This method only works on umbrel version 1.4.1 or above)
 
 <video src="migration/Migrate-Blockchain.mp4" controls="controls" muted="muted" style="max-width: 100%; height: auto;"></video>
