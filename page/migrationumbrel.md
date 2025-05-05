@@ -1,7 +1,7 @@
 How to migrate from Core to Knots on Umbrel.
 =============
 
-This guide work for version of umbrel above 1.0!
+This guide works for versions of umbrel above 1.0!
 
 1. Install Bitcoin Knots if its not already done!
 2. Right click on Bitcoin Knots and click on stop.
@@ -40,3 +40,11 @@ cd umbrel/app-data/ && sudo rm -rf bitcoin-knots/data/ && sudo mv bitcoin/data/ 
 9. You can now uninstall Bitcoin Core.
 
 Done! You now have migrated to Bitcoin Knots.
+
+Video tutorial
+--------
+
+Here is a video demonstrating how to move to bitcoin Knots without typing any commands:
+(This method only works on umbrel version 1.4.1 or above)
+
+<video src="migration/Migrate-Blockchain.mp4" controls="controls" muted="muted" style="max-width: 100%; height: auto;"></video>
