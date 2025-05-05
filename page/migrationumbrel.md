@@ -41,6 +41,8 @@ cd umbrel/app-data/ && sudo rm -rf bitcoin-knots/data/ && sudo mv bitcoin/data/ 
 
 Done! You now have migrated to Bitcoin Knots.
 
+Video tutorial
+--------
 
 Here is a video demonstrating how to move to bitcoin Knots without typing any commands:
 (This method only works on umbrel version 1.4.1 or above)
