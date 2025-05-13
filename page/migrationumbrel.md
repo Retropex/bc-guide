@@ -28,6 +28,7 @@ Finaly open the "umbrelOS" terminal:
 ```bash
 cd umbrel/app-data/ && sudo rm -rf bitcoin-knots/data/ && sudo mv bitcoin/data/ bitcoin-knots/ && sudo rm -f bitcoin-knots/data/app/bitcoin-config.json
 ```
+(note: if you run a pruned node, change the prune/enable boolean to true, size of the pruneSizeGB accordingly in bitcoin-config.json and restart Bitcoin Knots)
 
 6. you can now close the terminal and get back to the main view.
 7. Start Bitcoin Knots and see if the chain is synced!
