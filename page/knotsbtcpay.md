@@ -2,9 +2,10 @@ How to migrate from Core to Knots on BTCPayServer. (Docker)
 =============
 
 1. SSH to your BTCPayServer.
-2. Shutdown your BTCPayServer with `btcpay-down.sh`
-3. Edit the file `/etc/profile.d/btcpay-env.sh` with your editior.
-4. You should see something like that:
+2. Login as root `sudo su -`.
+3. Shutdown your BTCPayServer with `btcpay-down.sh`.
+4. Edit the file `/etc/profile.d/btcpay-env.sh` with your editior.
+5. You should see something like that:
 
 ```bash
 #!/bin/bash
@@ -36,14 +37,14 @@ if cat "$BTCPAY_ENV_FILE" &> /dev/null; then
 fi
 ```
 
-5. Just add the two following line at the end of your file:
+6. Just add the two following line at the end of your file:
 
 ```bash
 export BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;bitcoin"
 export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;bitcoinknots"
 ```
 
-6. Source the env variable and run again the setup script.
+7. Source the env variable and run again the setup script.
 
 ```bash
 source /etc/profile.d/btcpay-env.sh
@@ -51,7 +52,7 @@ cd $BTCPAY_BASE_DIRECTORY/btcpayserver-docker
 . btcpay-setup.sh -i
 ```
 
-7. You can verify that Knots is running with `bitcoin-cli.sh --version`, you should see this:
+8. You can verify that Knots is running with `bitcoin-cli.sh --version`, you should see this:
 
 ```
 Bitcoin Knots RPC client version v28.1.knots20250305
