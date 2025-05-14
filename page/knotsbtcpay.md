@@ -43,7 +43,7 @@ export BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;bitcoin"
 export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS;bitcoinknots"
 ```
 
-6. Source the env variable on run again the setup script.
+6. Source the env variable and run again the setup script.
 
 ```bash
 source /etc/profile.d/btcpay-env.sh
