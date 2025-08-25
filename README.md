@@ -15,3 +15,4 @@ DATUM
 
 - [edit json config on umbrel](page/datum/umbrel-datum-json.md)
 - [How to setup a second datum instance on start9](page/2nddatum.md)
+- [How to setup a second datum instance on umbrel](page/2nddatumumbrel.md)
