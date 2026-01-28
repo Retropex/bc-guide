@@ -9,6 +9,7 @@ Bitcoin Knots
 - [APT repo for Debian 12](/page/apt.md)
 - [Knots + Sparrow on Windows/macOS](page/sparrowknots.md)
 - [Switch to Knots on BTCPayServer (Docker)](page/knotsbtcpay.md)
+- [Expose P2P port Bitcoin Knots - startOS 0.3.5.1](page/port0531.md)
 
 DATUM
 ---
