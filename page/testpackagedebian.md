@@ -48,3 +48,25 @@ gbp buildpackage
 ```
 sudo dpkg -i ../bitcoin-knots_29.3.knots20260210-2_amd64.deb
 ```
+
+By default no configuration prompt is showed. That's expected.
+
+If you want to go through the interactive process please run dpkg-reconfigure:
+
+dpkg-reconfigure is defaulting to low priority.
+
+hardcoded:
+
+datadir=/var/lib/bitcoin // this is to fit in the debian policy
+server=1
+
+`dpkg-reconfigure -pmedium bitcoin-knots` (medium priority) is intended for pleb users:
+
+dbcache
+prune
+txindex
+
+`dpkg-reconfigure -plow bitcoin-knots` (low priority) is intended for industrial users:
+
+pruneduringinit
+// others options TBD
