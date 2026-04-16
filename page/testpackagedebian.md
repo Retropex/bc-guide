@@ -60,13 +60,22 @@ hardcoded:
 datadir=/var/lib/bitcoin // this is to fit in the debian policy
 server=1
 
-`dpkg-reconfigure -pmedium bitcoin-knots` (medium priority) is intended for pleb users:
+`dpkg-reconfigure -pmedium bitcoin-knots` (medium priority) is mostly intended for pleb users:
 
 dbcache
 prune
 txindex
 
-`dpkg-reconfigure -plow bitcoin-knots` (low priority) is intended for industrial users:
+`dpkg-reconfigure -plow bitcoin-knots` (low priority) is mostly intended for industrial users:
 
 pruneduringinit
-// others options TBD
+dbcache
+rpcthreads
+rpcworkqueue
+blockprioritysize
+blockmaxsize
+blockmaxweight
+maxmempool
+blockreconstructionextratxn
+blockreconstructionextratxnsize
+maxorphantx
