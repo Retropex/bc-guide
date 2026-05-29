@@ -19,10 +19,6 @@ EOF
 sudo apt update && sudo apt install bitcoin-knots/trixie-backports datum-gateway/trixie-backports
 ```
 
-<details>
-
-<summary>Configuration scripts:</summary>
-
 ### Pleb configuration script
 
 ```
@@ -34,5 +30,3 @@ sudo dpkg-reconfigure -pmedium bitcoin-knots datum-gateway
 ```
 sudo dpkg-reconfigure -plow bitcoin-knots datum-gateway
 ```
-
-</details>
