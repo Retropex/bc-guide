@@ -1,4 +1,6 @@
-This steps work on Debian stable.
+### Steps to install Bitcoin Knots and DATUM Gateway on Debian stable
+
+Note: these steps are only for debian stable (trixie).
 
 1. Activate the stable-backport repo:
 
@@ -19,13 +21,17 @@ EOF
 sudo apt update && sudo apt install bitcoin-knots/trixie-backports datum-gateway/trixie-backports
 ```
 
-### Pleb configuration script
+### Optionnal configuration scripts:
+
+You can choose between two configuration mode:
+
+3. Pleb configuration script
 
 ```
 sudo dpkg-reconfigure -pmedium bitcoin-knots datum-gateway
 ```
 
-### Advanced configuration script
+3. Advanced configuration script
 
 ```
 sudo dpkg-reconfigure -plow bitcoin-knots datum-gateway
