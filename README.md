@@ -20,4 +20,5 @@ DATUM
 Bitcoin Knots & DATUM Gateway
 ---
 
-- [Install Bitcoin Knots and DATUM Gateway from stable-backport](/page/apt.md)
+- [Install Bitcoin Knots and DATUM Gateway for Debian stable](/page/apt.md)
+- [Install Bitcoin Knots and DATUM Gateway for Devuan stable](/page/aptdevuan.md)
