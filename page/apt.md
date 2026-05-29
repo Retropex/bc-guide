@@ -25,13 +25,13 @@ sudo apt update && sudo apt install bitcoin-knots/trixie-backports datum-gateway
 
 You can choose between two configuration mode:
 
-3. Pleb configuration script
+3. Pleb configuration script:
 
 ```
 sudo dpkg-reconfigure -pmedium bitcoin-knots datum-gateway
 ```
 
-3. Advanced configuration script
+3. Advanced configuration script:
 
 ```
 sudo dpkg-reconfigure -plow bitcoin-knots datum-gateway
