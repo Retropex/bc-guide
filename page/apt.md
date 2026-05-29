@@ -1,19 +1,38 @@
-This steps work on Debian 12.
+This steps work on Debian stable.
 
-1. Get Léo Haf's key and add it to the apt key list:
-
-```
-wget --quiet -O - https://apt.orangepill.ovh/gpg-pubkey.asc | sudo tee /etc/apt/keyrings/leohaf.asc
-```
-
-2. Add the repository to your apt repository list and indicate the GPG key to use:
+1. Activate the stable-backport repo:
 
 ```
-echo "deb [signed-by=/etc/apt/keyrings/leohaf.asc arch=$(dpkg --print-architecture)] https://apt.orangepill.ovh bookworm main" | sudo tee /etc/apt/sources.list.d/bitcoin-knots.list
+cat << EOF | sudo tee /etc/apt/sources.list.d/debian-backports.sources
+Types: deb deb-src
+URIs: http://deb.debian.org/debian
+Suites: trixie-backports
+Components: main
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+EOF
 ```
 
-3. Update apt and install Bitcoin Knots:
+2. Update apt and install Bitcoin Knots and DATUM Gateway:
 
 ```
-sudo apt update && sudo apt install bitcoin-knots
+sudo apt update && sudo apt install bitcoin-knots/trixie-backports datum-gateway/trixie-backports
 ```
+
+<details>
+
+<summary>Configuration scripts:</summary>
+
+### Pleb configuration script
+
+```
+sudo dpkg-reconfigure -pmedium bitcoin-knots datum-gateway
+```
+
+### Advanced configuration script
+
+```
+sudo dpkg-reconfigure -plow bitcoin-knots datum-gateway
+```
+
+</details>
